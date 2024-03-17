@@ -21,11 +21,6 @@ Before getting started, make sure you have the following tools installed on your
 
   BACK_END_URL=<backend-api-url>
 
-  BACK_END_URL=<backend-api-url>
-
-markdown
-Copy code
-
 Replace `<backend-api-url>` with the actual URL of your backend.
 
 ## Installing Dependencies
