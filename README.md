@@ -14,8 +14,8 @@ Before getting started, make sure you have the following tools installed on your
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone <url-du-repository>
-   cd <nom-du-répertoire>
+   git clone https://github.com/Nutstothemoo/kickChatPollingFront.git
+   cd 
    ```
  3. Create a `.env` file at the root of the project and specify the URL of the Backend API for your Kick survey. Make sure the `.env` file contains the following variable:
 
