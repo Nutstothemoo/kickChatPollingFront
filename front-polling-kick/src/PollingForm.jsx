@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import.meta.env.VITE_BACK_END_URL;
 
 function PollingForm() {
   const [duration, setDuration] = useState(60);
@@ -14,7 +15,8 @@ function PollingForm() {
     };
 
     try {
-      const response = await axios.post(process.env.BACK_URL+ `/polling/${pollingData.duration}`, pollingData.options);
+      console.log(VITE_BACK_END_URL + `/polling/${pollingData.duration}`)
+      const response = await axios.post(+ `/polling/${pollingData.duration}`, pollingData.options);
       console.log(response.data);
     } catch (error) {
       console.error(error);
